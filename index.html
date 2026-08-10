@@ -1,0 +1,115 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JATIN AHUJA | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar">
+    <div class="nav-content">
+      <h2 class="logo">Your Name</h2>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="menu-btn">☰</button>
+    </div>
+  </nav>
+
+  <!-- HERO / HEADER -->
+  <header id="about">
+    <div class="header-content">
+      <h1>Hi, I'm <span>JATIN AHUJA</span></h1>
+      <p>Student / Aspiring FULL STACK Developer &mdash; passionate about building useful things.</p>
+      <div class="header-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="resume.pdf" class="btn btn-outline" download>Download Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card">HTML</div>
+      <div class="skill-card">CSS</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">Python</div>
+      <div class="skill-card">Git &amp; GitHub</div>
+      <div class="skill-card">SQL</div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="alt-bg">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>PARUL INSTITUTE OF TECHNOLOGY /  PARUL University </h3>
+        <p class="timeline-date">2022 &ndash; 2026</p>
+        <p>B.Tech in Computer Science (or your branch) &mdash; CGPA: 0.00</p>
+      </div>
+      <div class="timeline-item">
+        <h3>SJMS</h3>
+        <p class="timeline-date">2020 &ndash; 2022</p>
+        <p>Higher Secondary &mdash; Percentage: 82.00%</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">    
+        <h3>MOVIE DESIGN</h3>
+        <p>Short description of what this project does and what you used to build it.</p>
+        <a href="#" target="_blank">MOVIE DESIGN &rarr;</a>
+      </div>
+      <div class="project-card">
+        <h3>BOOKMYSHOW CLONE</h3>
+        <p>Short description of what this project does and what you used to build it.</p>
+        <a href="#" target="_blank">View on GitHub &rarr;</a>
+      </div>
+      <div class="project-card">
+        <h3>Project Three</h3>
+        <p>Short description of what this project does and what you used to build it.</p>
+        <a href="#" target="_blank">View on GitHub &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="alt-bg">
+    <h2 class="section-title">Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="form-status"></p>
+
+    <div class="social-links">
+      <a href="mailto:youremail@example.com">Email</a>
+      <a href="https://github.com/2403051050553" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; <span id="year"></span> Your Name. Built with HTML, CSS &amp; JS.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
